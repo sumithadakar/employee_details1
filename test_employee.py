@@ -1,4 +1,4 @@
-from emp import emp_details
+from employee import emp_details
 
 def test_emp():
     expected_op = (
