@@ -1,11 +1,11 @@
-from employee import employee
+from employee import employee_details
 
-def test_employee():
+def test_employee_details():
     expected_op = (
-        "Employee name: Sumit\n"
-        "Employee id: 273\n"
+        "Employee Name: Sumit\n"
+        "Employee ID: 273\n"
         "Department: MCA\n"
         "Salary: 200000"
     )
 
-    assert employee("Sumit", 273, "MCA", 200000) == expected_op
+    assert employee_details("Sumit", 273, "MCA", 200000) == expected_op
